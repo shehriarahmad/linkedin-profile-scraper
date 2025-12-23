@@ -1,0 +1,15 @@
+# Environment variables
+.env
+
+# Logs and results
+*.log
+*.json
+*.csv
+
+# Cache files
+.squid_id
+__pycache__/
+
+# Backups and temp
+*- Copy*.py
+*_backup.txt
