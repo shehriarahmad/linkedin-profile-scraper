@@ -39,7 +39,6 @@ class LiProfileScraper:
         # Load environment variables
         load_dotenv()
         self.api_key = os.getenv('API_KEY')
-        self.account_id = os.getenv('ACCOUNT_ID')
         self.base_url = "https://api.lobstr.io/v1"
         
         # Cache file path
